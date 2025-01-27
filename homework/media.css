@@ -1,0 +1,13 @@
+*{ margin: 0px;}
+header{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+}
+main{
+     margin-top: 150px;
+}
+h1{
+    background-color: aqua;
+}

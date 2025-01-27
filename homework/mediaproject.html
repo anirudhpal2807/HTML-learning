@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; background-color: chartreuse;">Learn Dsa From Coder Army</h1>
+       <nav style="background-color: rgb(235, 216, 216);">
+        <ol>
+            <li><a href="#first">Introduction to c++</a></li>
+            <li><a href="#second">C++ online compiler</a></li>
+            <li><a href="#third">Introduction to array</a></li>
+            <li><a href="#fourth">Introduction to Tree</a></li>
+            <li><a href="#fifth">Introduction to graph</a></li>
+            <li><a href="#sixth">Feedback form</a></li>
+        </ol>
+       </nav>
+    </header>
+    <main>
+        <!-- c++ introduction -->
+         <section id="first">
+         <h2>Introduction to C++</h2>
+         <p>C++ is a general-purpose, high-level programming language that is widely used for system/software development and game programming. It was developed by Bjarne Stroustrup in the early 1980s as an extension of the C programming language. C++ adds features like object-oriented programming (OOP) and other advanced programming constructs.</p>
+         <h3>Features of c++</h3>
+         <p>C++ is a powerful and flexible programming language that supports a variety of features, which make it suitable for a wide range of applications, from system software to game development. Here are the key features of C++:</p>
+         <ul>
+            <li>Encapsulation: Bundles data and functions together as objects, hiding internal details</li>
+            <li>Inheritance: Allows one class to inherit the properties and behaviors of another class, promoting code reuse.</li>
+            <li>Polymorphism: Enables methods to behave differently based on the object they are called on (overloading and overriding).</li>
+            <li>C++ provides direct access to memory through pointers and references, allowing fine-grained control over system resources.</li>
+            <li>This feature makes C++ ideal for system programming (e.g., operating systems, embedded systems).</li>
+            <li>Abstraction: Hides complex implementation details and exposes only essential features to the user.</li>
+         </ul>
+         <h3>Basic syntax</h3>
+         <pre style="background-color: aqua;"><code>
+            #include &lt;iostream &gt;
+
+                using namespace std;
+                
+                int main() {
+                cout &lt;&lt; "Hello, World!" &lt;&lt; endl;
+                return 0;
+                }
+         </code></pre>
+         <ul>
+            <li>#include &lt;iostream &gt; Preprocessor directive to include the standard input-output stream library.</li>
+            <li>using namespace std;: Allows you to use standard functions like cout without qualifying them with std::.</li>
+            <li>int main(): The main function where execution begins.</li>
+            <li>cout: Used to print output to the console.</li>
+            <li>return 0;: Indicates that the program ended successfully.</li>
+         </ul>
+         <h3>Application Of C++</h3>
+         <ol>
+            <li>Operating Systems: C++ is used in developing operating systems like Windows, Linux (kernel), and macOS.
+                Device Drivers: C++ is commonly used to write low-level device drivers for hardware components.</li>
+            <li>Game Engines: C++ is widely used in developing game engines like Unreal Engine, Unity (for scripting), and CryEngine. It offers high performance and direct hardware access, essential for gaming applications.</li>
+            <li>C++ is used in programming embedded systems, such as microcontrollers, robotics, automotive systems, medical devices, and consumer electronics</li>
+            <li>C++ is frequently used in developing real-time systems, where precise timing, fast execution, and immediate responses are critical.</li>
+            <li>High-frequency trading algorithms, banking applications, and stock market analysis software often rely on C++ due to its performance, low latency, and ability to handle large datasets quickly.</li>
+         </ol>
+        </section>
+         <!-- compiler -->
+          <section id="second">
+          <h2>Online c++ compiler</h2>
+          <iframe src="https://www.onlinegdb.com/online_c_compiler" frameborder="0" height="650" width="100%"
+           title="online compiler">
+        
+          </iframe>
+        </section>
+          <!-- Array -->
+           <section id="third">
+           <h2>Introduction to Array</h2>
+           <h3>What is an Array</h3>
+           <p>An array is a data structure that stores a collection of elements of the same data type in a contiguous block of memory. Arrays are commonly used in programming to manage and organize data efficiently.</p>
+           <p>Key Features of Arrays:
+            Fixed Size: The size of an array is defined when it is created and cannot be changed during runtime.
+            Homogeneous Elements: All elements in an array must be of the same data type (e.g., integers, floats, or characters).
+            Indexed Access: Elements in an array can be accessed using their indices (positions), starting from 0 in most programming languages.
+            Contiguous Memory: Elements are stored in consecutive memory locations.</p>
+           <img src="../homework/download.png" alt="Array picture"width="100%" height="450">
+            <h3>Charater of Array</h3>
+            <ul>
+                <li>Homogeneous Elements: It stores only characters.</li>
+                <li>Fixed Size: The size is determined when the array is declared and cannot change during runtime.</li>
+               <li>Indexed Access: Each character in the array can be accessed using its index</li>
+                <li>Null Termination: In languages like C and C++, a character array representing a string must end with a null character (\0) to indicate the end of the string.</li>
+            </ul>
+            <h3>Type of Array</h3>
+            <ol><li>One-Dimensional Array
+                Stores elements in a single row or line.
+                Simplest form of an array.
+                </li>
+            <li>Stores data in rows and columns (like a matrix).
+                Example (in C++):
+                cpp
+                Copy code
+                int arr[2][3] = {{1, 2, 3}, {4, 5, 6}};
+                cout << arr[1][2]; // Accessing the element at row 1, column 2 (outp</li>
+            <li>Extends the concept of 2D arrays to higher dimensions.
+                Example (3D Array in C++):
+                cpp
+                Copy code
+                int arr[2][3][4]; // Represents a 3D array with 2 blocks, 3 rows, and</li></ol>
+               <h3>Tutorial of Array</h3>
+                <table border="1">
+            <tr>
+                <td><iframe width="455" height="250" src="https://www.youtube.com/embed/moZNKL37w-s?si=TG25E7HnSuiql2vJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                <td><iframe width="455" height="250" src="https://www.youtube.com/embed/y3OOaXrFy-Q?si=F0hEmDXXLH32tFYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+               <td><iframe width="455" height="250" src="https://www.youtube.com/embed/9_B6TmAHveU?si=vRYc2z1FF_8AsxMJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                <td><iframe width="455" height="250" src="https://www.youtube.com/embed/hUdqNPhXOh4?si=vzP9JpBVFbE6-7lD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe width="455" height="250" src="https://www.youtube.com/embed/V3vM_m2iFtk?si=-fQXVX8mlaJScSjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                <td><iframe width="455" height="250" src="https://www.youtube.com/embed/YpZUgiT1N94?si=2NsCykygmf3pnI3V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                <td><iframe width="455" height="250" src="https://www.youtube.com/embed/740PMblqK6o?si=30kuJGpwbt_Z46kF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                <td><iframe width="455" height="250" src="https://www.youtube.com/embed/0Hwpzd-bSck?si=JXcv0RJKR-jCNlxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            </tr>
+           </table>
+        </section>
+
+           <!-- tree -->
+            <section id="fourth">
+            <h2>Introduction to Tree</h2>
+            <h3>what is tree</h3>
+            <p>A tree is a hierarchical data structure commonly used in computer science to represent relationships between elements in a structured way. It is widely used in algorithms, databases, and file systems.</p>
+            <img src="../homework/download (1).png" alt="Picture of tree" height="400" width="100%">
+            <h3>Charater of tree</h3>
+            <ul><li>Trees are a hierarchical data structure that organizes elements in a parent-child relationship.</li>
+            <li>The topmost element is the root, and all other nodes branch out from it.
+            </li>
+            <li>A tree has a single root node that serves as the starting point for all elements.</li>
+            <li>There is exactly one unique path between any two nodes, ensuring there are no cycles</li>
+            <li>Trees are acyclic graphs, meaning they do not contain any closed loops or cycles.</li></ul>
+            <h3>Type of Tree</h3>
+            <ol><li>A general tree allows nodes to have any number of children</li>
+            <li>Binary Tree
+                Each node has at most two children: left and right.</li>
+            <li>Full Binary Tree
+                A binary tree where every node has either 0 or 2 children</li>
+            <li>AVL Tree
+                A self-balancing binary search tree.
+                The height difference (balance factor) between the left and right subtrees of any node is at most 1.</li>
+            <li>Red-Black Tree
+                A self-balancing binary search tree.
+                Nodes are either red or black.</li></ol>
+                <h3>Application of Tree</h3>
+                <ul><li>Hierarchical Data Representation
+                    Trees are ideal for representing data with hierarchical relationships</li>
+                <li>Searching and Sorting
+                    Trees are commonly used for efficient searching and sorting algorithms.
+                    </li>
+                <li>Indexing in Databases
+                    Trees are used for indexing and searching in large datasets.
+                    </li>
+                <li>DNA Sequencing and Phylogenetics
+                    Trees are used to model evolutionary relationships between species or DNA sequences.
+                    </li>
+                <li>Scheduling and Resource Allocation
+                    Trees are used in operating systems for scheduling tasks</li></ul>
+            <h3>Tutorial of tree</h3>
+            <table border="1">
+                <tr>
+                    <td><iframe width="455" height="300" src="https://www.youtube.com/embed/_b0bfpO3b4I?si=luuoepJnHCrO_QQN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                    <td><iframe width="455" height="300" src="https://www.youtube.com/embed/P30p5jYsiDc?si=rkljtxMQ65ic_zVz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                    <td><iframe width="455" height="300" src="https://www.youtube.com/embed/T78jHD4fNgc?si=tg1pApaJYSW4GbJK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                    <td><iframe width="455" height="300" src="https://www.youtube.com/embed/f7IZ0IXLvhI?si=16ZFWpcKHZFMK6XK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                </tr>
+                <tr>
+                    <td><iframe width="455" height="300" src="https://www.youtube.com/embed/z9GM2HB4mUk?si=SRnBsxpoO1e_87pa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                    <td><iframe width="455" height="300" src="https://www.youtube.com/embed/wusLRj3XUdE?si=PBeZZ43l9XoI0VbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                    <td><iframe width="455" height="300" src="https://www.youtube.com/embed/XGnLaRwh0bY?si=ctZdYF9FkKTn_j0D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                    <td><iframe width="455" height="300" src="https://www.youtube.com/embed/aBqPnkXmvpY?si=LprMJdqJUIZ7-XCP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                </tr>
+            </table>
+        </section>
+                    <!-- graph -->
+                     <section id="fifth">
+                     <h2>Introduction to Graph</h2>
+                     <h3>What is graph</h3>
+                     <p>In computer science and mathematics, a graph is a data structure used to represent relationships or connections between objects. A graph consists of:
+
+                        Vertices (Nodes): Represent the objects or entities.
+                        Edges (Links): Represent the relationships or connections between the vertices.
+                        A graph is commonly denoted as 
+                        𝐺
+                        (
+                        𝑉
+                        ,
+                        𝐸
+                        )
+                        G(V,E), where:
+                        
+                        𝑉
+                        V: A set of vertices.
+                        𝐸
+                        E: A set of edges, where each edge connects a pair of vertices.
+                        Types of Graphs</p>
+                        <img src="../homework/download (2).png" alt="Image of graph" width="100%">
+    <h3>Characteistic of graph</h3>
+    <p>A graph is a fundamental data structure in computer science and discrete mathematics. Its characteristics depend on its structure, the type of edges, and the relationships between vertices. Below are the primary characteristics of a graph:</p>
+       <ul><li>Vertices (Nodes):
+
+        Basic units of a graph, representing entities (e.g., people, locations).</li>
+       <li>Edges (Links):
+
+        Represent the relationships between vertices.</li>
+       <li>Path:
+
+        A sequence of vertices connected by edges.</li>
+       <li>Connectivity:
+
+        Connected: A path exists between every pair of vertices.</li>
+       <li>Directed or Undirected:
+
+        Directed: Edges have a direction (one-way relationship).
+        Undirected: Edges have no direction (bidirectional).</li></ul>             
+ <h3>Application of Graph</h3>
+ <ol>
+    <li>Social Networks:
+
+        Vertices represent users, edges represent relationships or interactions (e.g., Facebook, LinkedIn).</li>
+    <li>Computer Networks:
+
+        Vertices represent computers or routers, edges represent communication links between them.</li>
+    <li>Navigation and Maps:
+
+        Vertices represent locations (cities, places), edges represent roads or routes (used in GPS systems).</li>
+    <li>Web Crawling:
+
+        Graphs represent web pages (vertices) and links (edges) between them (used in search engines).</li>
+    <li>Route Finding and Shortest Path:
+
+        Used in algorithms like Dijkstra's to find the shortest path in a weighted graph (e.g., in navigation, logistics).</li>
+ </ol>
+ <h3>Tutorial of Graph</h3>
+ <table border="1">
+    <tr>
+        <td><iframe width="455" height="315" src="https://www.youtube.com/embed/gGlfzqPT-hE?si=UVcWWF2CYC_TJPlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        <td><iframe width="455" height="315" src="https://www.youtube.com/embed/bxbrUGvBCnY?si=0grQRuazAgI2PwBz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        <td><iframe width="455" height="315" src="https://www.youtube.com/embed/Vtu7qgF0ksw?si=i31MYjNBfEWxec1i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        <td><iframe width="455" height="315" src="https://www.youtube.com/embed/oz1EaP_Bw4s?si=Zb2cv3X7bqja9aOF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+    </tr>
+    <tr>
+        <td><iframe width="455" height="315" src="https://www.youtube.com/embed/2JgYwQ6TZ44?si=KkL7HMQXnUyFgU9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        <td><iframe width="455" height="315" src="https://www.youtube.com/embed/sPlN86EpjJA?si=A-tzeLsYGX-P6yiu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        <td><iframe width="455" height="315" src="https://www.youtube.com/embed/gSCidfLIVGc?si=WPOTHVo0wPCb6zt1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        <td><iframe width="455" height="315" src="https://www.youtube.com/embed/XIaqB8-wAiQ?si=tOdP1sB8GCeXpRPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+    </tr>
+ </table>
+</section>
+<section id="sixth">
+<h2>Feeback Form</h2>
+<iframe src="../homework/formhw.html" frameborder="0" width="100%" ></iframe>
+</section>
+</main>
+    <footer>
+        <h3>&copy; All right are reserved by Anirudh pal </h3>
+
+    </footer>
+</body>
+</html>
